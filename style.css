@@ -1,0 +1,25 @@
+.drop-down{
+    display: none;
+    transition: all 0.3s ease-in-out;
+}
+.drop-down.active{
+    transition: all 0.3s ease-in-out;
+    display: block;
+}
+.check , .check1 , .check2 , .check3 , .check4{
+    display: none;
+}
+
+.check.open , .check1.open , .check2.open , .check3.open , .check4.open{
+    display: block;
+}
+
+.rot{
+    transition: all 0.3s ease-in-out;
+
+}
+
+.rotate{
+    transition: all 0.3s ease-in-out;
+    transform: rotate(180deg);
+}
